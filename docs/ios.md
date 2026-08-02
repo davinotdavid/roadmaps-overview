@@ -6,12 +6,12 @@
 </div>
 
 ## <i class="ph ph-pulse"></i> Active
-- **Full Email Writing and Reading Experience** Implement the full reading and writing email experience on mobile, including initial support for encrypted messages (OpenPGP and S/MIME with existing libraries). WYSIWYG is now wrapping up. The next piece is to connect the protocol and database to render email. 
+- **Full Email Writing and Reading Experience** Implement the full reading and writing email experience on mobile, including initial support for encrypted messages (OpenPGP and S/MIME with existing libraries). WYSIWYG is now wrapping up. The next piece is to connect the protocol and database to render email.
 - **JMAP Support - Exploration** Already 80% finished. The intention is to implement the full protocol with all the basic infrastructure in place.
 
 
 ## <i class="ph ph-calendar-blank"></i>Planned
-- **JMAP Support - Complete Implemenation** Support the JMAP protocol as one of the first extra protocols we ship with by default outside of IMAP. Currently we are prioritizing IMAP and a first user release.
+- **JMAP Support - Complete Implementation** Support the JMAP protocol as one of the first extra protocols we ship with by default outside of IMAP. Currently we are prioritizing IMAP and a first user release.
 - **Database** We’re changing how we cache the email to be able to consume the UI faster, and moving the database work for after the first version is out to the users.
 
 
@@ -19,4 +19,4 @@
 - **Architecture** Establish a robust and scalable architecture to begin the Thunderbird for iOS project and create the backend. This architecture will include strategies for code sharing across platforms, taking into account the Android and Desktop clients. <div class="date-badge">July 2025</div>
 - **Autoconfiguration** Add DNS MX lookup to autoconfig feature library and move SRV record lookup into autoconfig feature library and delete Autodiscover core library <div class="date-badge">September 2025</div>
 - **Account Creation Flow** Implement a full automated and manual setup, including autodiscovery and OAuth. <div class="date-badge">March 2026</div>
-- **iOS Create Protocol & Framework** Implement the IMAP protocol first as it's the most widespread protocol currently in use. We completed the protocol work and basic framework. <div class="date-badge">June 2026</div> 
+- **iOS Create Protocol & Framework** Implement the IMAP protocol first as it's the most widespread protocol currently in use. We completed the protocol work and basic framework. <div class="date-badge">June 2026</div>
